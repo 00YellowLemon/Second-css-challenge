@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    
+}
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin: 0 auto;
+    height: 100vh;
+
+
+}
+.container{
+    display:flex;
+    background-color: aliceblue;
+    box-shadow: 50px 20px 80px rgb(100, 96, 96);
+
+
+}
+.blue{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    text-align: center;
+    color: aliceblue;
+    width: 261px;
+    padding:20px 30px 40px;
+    border-radius: 15px;
+    border:0;
+
+
+}
+.circle{
+    padding :50px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    margin: 15px 0;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+h1{
+    font-size: 76px;
+}
+h2{
+    margin-bottom: 10px;
+}
+.red{
+    
+    width: 261px;
+    padding: 30px 20px;
+}
+.summary1{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    background-color: hsl(0, 62%, 90%);
+    border-radius: 5px;
+}
+.summary2{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    margin-top: 15px;
+    background-color: hsl(38, 69%, 94%);
+    border-radius: 5px;
+}
+i{
+    margin-right: 10px;
+}
+.summary3{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    margin-top: 15px;
+    background-color: hsl(165, 82%, 89%);
+    border-radius: 5px;
+}
+.summary4{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    margin-top: 15px;
+    background-color: hsl(241, 100%, 89%);
+    border-radius: 5px;
+}
+.red h2{
+  margin-bottom: 30px;
+}
+button{
+    width:100%;
+    background-color: hsla(256, 72%, 46%, 1) ;
+    padding: 15px;
+    border: 1px solid hsla(256, 72%, 46%, 1);
+    border-top:white ;
+    cursor: pointer;
+    color: white;
+
+}
+.button{
+    border-radius: 27px;
+    margin-top: 25px;
+    overflow :hidden;
+    
+}
+.circle p,.blue p{
+    color:  hsl(241, 100%, 89%);
+    
+
+}
+span{
+    color:grey;
+}
+.pink{
+  color: hsl(0, 100%, 67%);
+}
+.yellow{
+   color: hsl(39, 100%, 56%);
+}
+.lightBlue{
+    color: hsl(234, 85%, 45%);
+
+}
+.green{
+    color: hsl(166, 100%, 37%);
+
+}
+@media all and (max-width:520px){
+    body{
+
+        height:100%;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+        box-shadow: none;
+    }
+    
+  
+}
